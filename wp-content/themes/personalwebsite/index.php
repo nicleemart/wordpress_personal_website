@@ -1,13 +1,12 @@
 <?php $title="Nikki";
 	$thisPage="Index";
 	$directory_prefix="";
-	include ("top.php");
 	?>
 
+	<?php get_header(); ?>
 
 
-			<p>My name is Nikki. I grew up in rural Southwestern Iowa and currently live in Omaha, Nebraska. I really enjoy traveling, especially abroad. In my free time, I like to cook, read, play video games and hang out with my dog.</p>
 
+				<?php get_template_part( 'content', get_post_format() ); ?>
 			
-
-<?php include ("bottom.php"); ?>
+<?php get_footer(); ?>
