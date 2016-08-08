@@ -1,0 +1,158 @@
+/*
+Theme Name: Personal Website
+Author: Nikki Martin
+Description: Personal website
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Dancing+Script|Raleway);
+body {
+	padding: 0;
+	margin: 0;
+	font-family: "Raleway", sans-serif;
+	color: #413E4A;
+	font-size: 14px;
+	background-color: #9CDDC8;
+}
+a:link {
+	color: #EB8B7F;
+	text-decoration: none;
+}
+a:visited {
+	color: #73626E;
+	text-decoration: none;
+}
+a:hover {
+	color: #633D2E;
+	text-decoration: none;
+}
+.main {
+    background-color: #9CDDC8;
+    display: flex;
+}
+.left {
+    background-color: #DDD9AB;
+    min-width: 240px;
+    min-height: 100vh;
+ }
+.header {
+	background-color: #C1C99F;
+	height: 100px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.name {
+	font-size: 44px;
+	font-family: "Dancing Script", cursive;
+	display: flex;
+}
+.socialMedia {
+	display: flex;
+}
+.socialMedia__image {
+}
+.navigation #currentpage a {
+	color: #F7AF63;
+	text-decoration: none;
+	font-weight: bold;
+}
+ .navTitle {
+ 	font-size: 21px;
+ 	font-weight: bold;
+ 	padding-top: 10px;
+ 	padding-left: 25px;
+}
+.navHeader {
+	font-size: 19px;
+	font-weight: bold;
+	padding: 10px;
+	padding-left: 25px;
+}
+.navText {
+	padding: 1px;
+	padding-left: 35px;
+}
+.navText:hover {
+	background: rgba(255,255,255, 0.3);
+}
+.bodyContainer {
+ 	background-color: #9CDDC8;
+ 	height: 100%;
+ 	margin-left: 25px;
+ 	margin-right: 25px;
+ }
+ .pageTitle{
+	font-size: 26px;
+	font-weight: bold;
+	margin-top: 25px;
+}
+ p {
+ 	text-indent: 25px;
+ }
+.board {
+	background-color: #44B8B6;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	width: 285px;
+	height: 320px;
+	color: #EEE6AB;
+	text-align: center;
+}
+.board__square {
+	background-color: #E6E6E6;
+	display: inline-block;
+	font-size: 90px;
+	height: 90px;
+	width: 90px;
+	border-style: solid;
+	border-width: 3px;
+	border-color: #44B8B6;
+	float: left;
+	opacity: 0.6;
+}
+.board__square--opacity {
+	visibility: hidden;
+	background-color: #E6E6E6;
+	display: inline-block;
+	font-size: 90px;
+	height: 90px;
+	width: 90px;
+	border-style: solid;
+	border-width: 3px;
+	border-color: #44B8B6;
+	float: left;
+	opacity: 1.0;
+}
+.board__square a:link {
+	color: #E6E6E6;
+}
+.board__square a:visited {
+	color: #E6E6E6;
+}
+.board__square a:hover {
+	color: #E6E6E6;
+}
+.board__square:hover {
+	opacity: 1.0;
+}
+.results {
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	height: 200px;
+	width: 285px;
+	background-color: #696758;
+	color: white;
+	font-size: 25px;
+	font-weight: bold;
+}
+.results__text {
+	font-size: 20px;
+	background-color: #45484B;
+	height: 20px;
+	width: 280px;
+	font-weight: normal;
+}
