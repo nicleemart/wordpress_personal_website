@@ -1,12 +1,13 @@
-<?php $title="Nikki";
-	$thisPage="Index";
-	$directory_prefix="";
-	?>
 
 	<?php get_header(); ?>
 
+				<?php 
+				if ( have_posts() ) : while ( have_posts() ) : the_post();
+  	
+					get_template_part( 'content', get_post_format() );
+  
+				endwhile; endif; 
+			?>
 
-
-				<?php get_template_part( 'content', get_post_format() ); ?>
 			
 <?php get_footer(); ?>
