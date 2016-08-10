@@ -14,8 +14,12 @@
 
 	<div class="navTitle">Navigation</div>
 		<div class="navHeader">Main</div>
-<?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
-<?php wp_nav_menu( array( 'theme_location' => 'extra-menu' ) ); ?>
+
+<ul class="noDots"><?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?></ul>
+	
+	<div class="navHeader">Articles</div>
+
+<ul class="noDots"><?php wp_nav_menu( array( 'theme_location' => 'extra-menu' ) ); ?></ul>
 
 	
 </div>

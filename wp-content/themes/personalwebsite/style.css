@@ -156,6 +156,6 @@ a:hover {
 	width: 280px;
 	font-weight: normal;
 }
-.blog-nav li {
+.noDots ul{
 	list-style: none;
 }
